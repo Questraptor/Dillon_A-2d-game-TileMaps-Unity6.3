@@ -1,0 +1,554 @@
+fileFormatVersion: 2
+guid: 19f11894dfa507f47930641573dcba51
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5846404275267200552
+    second: Skeletal player sprite 2_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skeletal player sprite 2_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones:
+      - name: head
+        guid: cf36d78cdaffa9e4580ea90be95e731a
+        position: {x: 11.019274, y: 28.497444, z: 0}
+        rotation: {x: 0, y: 0, z: -0.71078944, w: 0.70340484}
+        length: 7.381312
+        parentId: -1
+        color:
+          serializedVersion: 2
+          rgba: 4278190335
+      - name: neck
+        guid: 4c1ace76d42cd64449bc8a0a275f2c13
+        position: {x: 7.381311, y: -0.00000032114346, z: 0}
+        rotation: {x: 0, y: 0, z: 0.005219131, w: 0.9999864}
+        length: 2.042759
+        parentId: 0
+        color:
+          serializedVersion: 2
+          rgba: 4278255615
+      - name: upper spine
+        guid: ea4c280c844392244926388535a933de
+        position: {x: 2.04276, y: 0.00000017106487, z: 0}
+        rotation: {x: 0, y: 0, z: 0.007393069, w: 0.9999727}
+        length: 3.9125018
+        parentId: 1
+        color:
+          serializedVersion: 2
+          rgba: 4278255360
+      - name: lower spine
+        guid: b7c4d5efc58d2b348bf27a90a35b3ffd
+        position: {x: 3.9125006, y: -0.0000004008527, z: 0}
+        rotation: {x: 0, y: 0, z: -0.007391053, w: 0.9999727}
+        length: 2.620901
+        parentId: 2
+        color:
+          serializedVersion: 2
+          rgba: 4294967040
+      - name: left hip
+        guid: 012d5a4b0afd3ff4fa139c6a5ada4732
+        position: {x: 0.17344205, y: -1.5995222, z: 0}
+        rotation: {x: 0, y: 0, z: 0.00000054806833, w: 1}
+        length: 1.9271295
+        parentId: 20
+        color:
+          serializedVersion: 2
+          rgba: 4294901760
+      - name: right hip
+        guid: 0b14906824ce4e64a86fac22ded649f6
+        position: {x: 0.21197961, y: 1.522429, z: 0}
+        rotation: {x: 0, y: 0, z: -0.010306801, w: 0.9999469}
+        length: 1.8697162
+        parentId: 20
+        color:
+          serializedVersion: 2
+          rgba: 4294902015
+      - name: left upper leg
+        guid: 89d7ae74f2507664d9f7f9c8f16ac4bb
+        position: {x: 3.1990352, y: -0.9635628, z: 0}
+        rotation: {x: 0, y: 0, z: -0.044174068, w: 0.99902385}
+        length: 3.0567982
+        parentId: 4
+        color:
+          serializedVersion: 2
+          rgba: 4278223103
+      - name: left lower leg
+        guid: 4a3a5b1f776dc964fb240289931d9323
+        position: {x: 3.0567985, y: 0.000000049970915, z: 0}
+        rotation: {x: 0, y: 0, z: -0.07511264, w: 0.9971751}
+        length: 3.7485995
+        parentId: 6
+        color:
+          serializedVersion: 2
+          rgba: 4278255488
+      - name: left foot
+        guid: 4a878bbe1e518a744989fa3b690e66f5
+        position: {x: 3.7485986, y: -0.00000014340824, z: 0}
+        rotation: {x: 0, y: 0, z: -0.32518503, w: 0.94565046}
+        length: 1.7697098
+        parentId: 7
+        color:
+          serializedVersion: 2
+          rgba: 4286643968
+      - name: right upper leg
+        guid: 5dc61e44da2b15448b55d73ba0ea5129
+        position: {x: 3.253976, y: 1.1079626, z: 0}
+        rotation: {x: 0, y: 0, z: 0.050571363, w: 0.99872047}
+        length: 3.1127806
+        parentId: 5
+        color:
+          serializedVersion: 2
+          rgba: 4294934528
+      - name: right lower leg
+        guid: 2fceb545df6ba1541be7238afae1dad7
+        position: {x: 3.1127808, y: 0.00000090310004, z: 0}
+        rotation: {x: 0, y: 0, z: 0.09022575, w: 0.9959214}
+        length: 3.7303245
+        parentId: 9
+        color:
+          serializedVersion: 2
+          rgba: 4294901888
+      - name: right foot
+        guid: ae02dc9f8d8ad0c408791dcf38a63dad
+        position: {x: 3.7303243, y: -0.00000080672277, z: 0}
+        rotation: {x: 0, y: 0, z: 0.38192654, w: 0.9241927}
+        length: 1.8047246
+        parentId: 10
+        color:
+          serializedVersion: 2
+          rgba: 4286578943
+      - name: right shoulder
+        guid: 1cc8a6953ddf42643bbf6519e01f0a83
+        position: {x: 1.5073675, y: 1.5774199, z: 0}
+        rotation: {x: 0, y: 0, z: 0.02114907, w: 0.99977636}
+        length: 1.351194
+        parentId: 2
+        color:
+          serializedVersion: 2
+          rgba: 4278255615
+      - name: left shoulder
+        guid: 08ddc69af7f779c458de12aa23baad09
+        position: {x: 1.1877532, y: -1.7907026, z: 0}
+        rotation: {x: 0, y: 0, z: -0.014742029, w: 0.9998914}
+        length: 1.3105873
+        parentId: 2
+        color:
+          serializedVersion: 2
+          rgba: 4278255360
+      - name: right upper arm
+        guid: 69da4c24e2a5ce14d952bcac45d68142
+        position: {x: 0.6068893, y: 3.8644753, z: 0}
+        rotation: {x: 0, y: 0, z: 0.07087167, w: 0.99748546}
+        length: 2.4377232
+        parentId: 12
+        color:
+          serializedVersion: 2
+          rgba: 4294967040
+      - name: right lower arm
+        guid: d4a13ad3b4a9c8d4ca056efaa7d677bc
+        position: {x: 2.4377236, y: 0.00000008535744, z: 0}
+        rotation: {x: 0, y: 0, z: -0.07885383, w: 0.9968862}
+        length: 2.815986
+        parentId: 14
+        color:
+          serializedVersion: 2
+          rgba: 4294901760
+      - name: right hand
+        guid: 935838310db240e4788e03388e9bd8ef
+        position: {x: 2.8159857, y: -0.0000003620625, z: 0}
+        rotation: {x: 0, y: 0, z: 0.01429003, w: 0.9998979}
+        length: 0.830679
+        parentId: 15
+        color:
+          serializedVersion: 2
+          rgba: 4294902015
+      - name: left upper arm
+        guid: 05a449f6e648bf24bac4eeb81427071b
+        position: {x: 0.669318, y: -3.5750089, z: 0}
+        rotation: {x: 0, y: 0, z: -0.09762246, w: 0.9952236}
+        length: 3.2316668
+        parentId: 13
+        color:
+          serializedVersion: 2
+          rgba: 4278190335
+      - name: left lower arm
+        guid: 1eed4ce5d38c1c34098370e3600432b2
+        position: {x: 3.231667, y: 0.0000015361861, z: 0}
+        rotation: {x: 0, y: 0, z: 0.122829445, w: 0.9924278}
+        length: 2.1405041
+        parentId: 17
+        color:
+          serializedVersion: 2
+          rgba: 4278255488
+      - name: left hand
+        guid: bd30f1f0c622e31418ee10be8c4b02bf
+        position: {x: 2.1405048, y: -0.00000027177032, z: 0}
+        rotation: {x: 0, y: 0, z: 0.014552442, w: 0.99989414}
+        length: 0.88836163
+        parentId: 18
+        color:
+          serializedVersion: 2
+          rgba: 4286643968
+      - name: pelvis
+        guid: 4db67d77d88769a479a741e34355d785
+        position: {x: 2.6209013, y: 0.0000010386184, z: 0}
+        rotation: {x: 0, y: 0, z: 0.0000000046062705, w: 1}
+        length: 2.3510942
+        parentId: 3
+        color:
+          serializedVersion: 2
+          rgba: 4294934528
+      spriteID: 8d99f5789466ddea0800000000000000
+      internalID: -5846404275267200552
+      vertices:
+      - {x: 10.409, y: 0.01099968}
+      - {x: 15.403002, y: 0}
+      - {x: 19.190617, y: 0}
+      - {x: 19.305777, y: 2.999003}
+      - {x: 17.820074, y: 5.0910115}
+      - {x: 21.551987, y: 10.391021}
+      - {x: 20.057425, y: 13.918995}
+      - {x: 19.294292, y: 19.494276}
+      - {x: 16.863451, y: 23.07888}
+      - {x: 16.685, y: 28.312}
+      - {x: 12.317, y: 29.64}
+      - {x: 7.5584435, y: 29.67239}
+      - {x: 4.804799, y: 26.038122}
+      - {x: 4.8369894, y: 21.134508}
+      - {x: 2.2228506, y: 17.37539}
+      - {x: 0.82206964, y: 12.964732}
+      - {x: 0.5781391, y: 9.2033615}
+      - {x: 4.598008, y: 5.36656}
+      - {x: 2.8093932, y: 1.8242595}
+      - {x: 3.409, y: 0}
+      - {x: 9.454106, y: 24.53755}
+      indices: 000000000400000001000000000000001100000004000000000000001300000011000000010000000300000002000000010000000400000003000000040000000600000005000000040000001100000006000000060000000d00000007000000060000000e0000000d00000006000000110000000e000000070000001400000008000000070000000d0000001400000008000000140000000900000009000000140000000a0000000a000000140000000b0000000b000000140000000c0000000c000000140000000d0000000e000000110000000f0000000f0000001100000010000000110000001300000012000000
+      edges:
+      - {x: 0, y: 1}
+      - {x: 0, y: 19}
+      - {x: 1, y: 2}
+      - {x: 2, y: 3}
+      - {x: 3, y: 4}
+      - {x: 4, y: 5}
+      - {x: 5, y: 6}
+      - {x: 6, y: 7}
+      - {x: 7, y: 8}
+      - {x: 8, y: 9}
+      - {x: 9, y: 10}
+      - {x: 10, y: 11}
+      - {x: 11, y: 12}
+      - {x: 12, y: 13}
+      - {x: 13, y: 14}
+      - {x: 14, y: 15}
+      - {x: 15, y: 16}
+      - {x: 16, y: 17}
+      - {x: 17, y: 18}
+      - {x: 18, y: 19}
+      weights:
+      - 'weight[0]': 0
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 0
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 0
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 0
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 0
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 0
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 0
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 0
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 0
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 0
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 0
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 0
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 0
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 0
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 0
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 0
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 0
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 0
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 0
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 0
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 0
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 24927b113e0698c47839589a0c9e9b0a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Skeletal player sprite 2_0: -5846404275267200552
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
